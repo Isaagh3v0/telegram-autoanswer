@@ -8,13 +8,11 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/build-v1.22.19-brightgreen?style=for-the-badge&logo=yarn&label=%20&labelColor=black&color=blue">
 </p>
 
-<h2 align="center">Screenshots</h2>
-<div>
-    <h3 align="center">1. Auto Answering System</h3>
-    <img alt="SCREEN1" src="https://cdn.discordapp.com/attachments/1119771266845515867/1137497024686739498/image.png">
-    <h3 align="center">2. One message, one person</h3>
-    <img alt="SCREEN1" src="https://cdn.discordapp.com/attachments/1119771266845515867/1137498300086493324/image.png">
-</div>
+## Screenshots
+### 1. Auto Answering System
+<img alt="SCREEN1" src="https://cdn.discordapp.com/attachments/1119771266845515867/1137497024686739498/image.png">
+### 2. One message, one person
+<img alt="SCREEN1" src="https://cdn.discordapp.com/attachments/1119771266845515867/1137498300086493324/image.png">
 
 
 ## Authors
