@@ -9,9 +9,9 @@
 </p>
 
 ## Screenshots
-### 1. Auto Answering System
+<h3>1. Auto Answering System</h3>
 <img alt="SCREEN1" src="https://cdn.discordapp.com/attachments/1119771266845515867/1137497024686739498/image.png">
-### 2. One message, one person
+<h3>2. One message, one person</h3>
 <img alt="SCREEN1" src="https://cdn.discordapp.com/attachments/1119771266845515867/1137498300086493324/image.png">
 
 
