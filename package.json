@@ -1,0 +1,22 @@
+{
+  "name": "tg-answering-machine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@types/sqlite3": "^3.1.8",
+    "dotenv": "^16.3.1",
+    "input": "^1.0.1",
+    "mongoose": "^7.4.2",
+    "telegram": "^2.17.10"
+  }
+}
