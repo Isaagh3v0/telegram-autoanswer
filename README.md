@@ -19,17 +19,18 @@
 
 - ENIGMA ([@nahmnenickname](https://t.me/nahmnenickname))
 
-____
-
-## To Start
+## **To Start**
 
 ### 1. Renaming config and message file
-> Rename config file `.env.example` to `.env` and `message.example.json` in `src/text` to `message.json`.
+Rename config file `.env.example` to `.env` and `message.example.json` in `src/text` to `message.json`.
 
 ### 2. Replace config and message
-> Fill `.env` and `message.json`
+Fill `.env` and `message.json`
 
-## Install with shell
+### 3. Paste session
+Please paste session to `session.json` in `src`
+
+## **Install with shell**
 
 ### 1. Init Project
 ```bash
@@ -46,7 +47,7 @@ make build
 make start
 ```
 
-## Install with Docker
+## **Install with Docker**
 
 ### 1. Build Image
 ```bash

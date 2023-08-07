@@ -1,3 +1,9 @@
+/*
+ * BY ENIGMA | DISCORD & TG: nahmnenickname
+ * LICENSED BY MIT
+ * GITHUB: Isaagh3v0
+ */
+
 import {model, Schema, SchemaTypes} from "mongoose";
 
 export interface IuserSchema {
@@ -13,6 +19,9 @@ const userSchema = new Schema<IuserSchema>({
     }
 });
 
-// compile our model
 const UserSchema = model('userWrote', userSchema);
 export {UserSchema}
+
+/*
+ * https://github/Isaagh3v0/telegram-autoanswer
+ */

@@ -1,3 +1,9 @@
+/*
+ * BY ENIGMA | DISCORD & TG: nahmnenickname
+ * LICENSED BY MIT
+ * GITHUB: Isaagh3v0
+ */
+
 import * as mongoose from "mongoose";
 import {ConfigService} from "../../config";
 import {ConnectOptions} from "mongoose";
@@ -14,3 +20,7 @@ mongoose
     } as ConnectOptions)
         .then(x => console.log(`Connection to MongoDB with Mongoose Successfully!`))
         .catch(e => console.log(e))
+
+/*
+ * https://github/Isaagh3v0/telegram-autoanswer
+ */

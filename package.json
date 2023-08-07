@@ -1,22 +1,36 @@
 {
-  "name": "tg-answering-machine",
-  "version": "1.0.0",
+  "name": "telegram-autoanswer",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "author": "nahmnenickname <github/Isaagh3v0>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Isaagh3v0/telegram-autoanswer"
+  },
   "scripts": {
-    "build": "tsc",
+    "build:production": "webpack --mode production",
+    "build:dev": "webpack --mode development",
     "start": "node dist/index.js",
-    "dev": "tsc && node dist/index.js"
+    "dev": "webpack --mode development && node dist/index.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.9",
     "@types/typescript": "^2.0.0",
-    "typescript": "^5.1.6"
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.3",
+    "dotenv-webpack": "^8.0.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2"
   },
   "dependencies": {
-    "@types/sqlite3": "^3.1.8",
+    "@types/node": "^20.4.8",
+    "chalk": "^5.3.0",
     "dotenv": "^16.3.1",
     "input": "^1.0.1",
     "mongoose": "^7.4.2",
-    "telegram": "^2.17.10"
+    "telegram": "^2.17.10",
+    "webpack-cli": "^5.1.4"
   }
 }

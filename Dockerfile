@@ -6,6 +6,6 @@ COPY . .
 
 RUN yarn
 
-RUN yarn build
+RUN yarn build:production
 
 CMD [ "yarn", "start" ]

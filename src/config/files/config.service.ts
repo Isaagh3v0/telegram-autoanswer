@@ -1,3 +1,9 @@
+/*
+ * BY ENIGMA | DISCORD & TG: nahmnenickname
+ * LICENSED BY MIT
+ * GITHUB: Isaagh3v0
+ */
+
 import { IConfigService } from "./config.interface";
 import { config, DotenvParseOutput } from 'dotenv'
 
@@ -15,3 +21,7 @@ export class ConfigService implements IConfigService {
         return res
     }
 }
+
+/*
+ * https://github/Isaagh3v0/telegram-autoanswer
+ */
